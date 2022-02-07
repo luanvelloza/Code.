@@ -1,0 +1,38 @@
+.orcamento{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.orcamento-image{
+    background-image: url("../assets/video_call.png");
+    background-repeat: no-repeat;
+    background-size: 250px;
+    height: 250px;
+    width: 250px;
+}
+
+.orcamento-phrase{
+    color: #000000;
+    font-size: 1.1rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    margin: 1rem 0 2.5rem 0;
+    text-align: center;
+}
+
+.orcamento-title{
+    color: #D6000D;
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+
+.orcamento-buttom{
+    background-color: #D6000D;
+    border: none;
+    border-radius: 1rem;
+    color: #FFFFFF;
+    padding: 1rem 4rem;
+    font-size: 1rem;
+}
