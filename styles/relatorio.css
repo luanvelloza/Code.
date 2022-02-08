@@ -1,0 +1,48 @@
+.relatorio{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 0 1rem 0;
+}
+
+.funcionarios{
+    align-items: flex-start;
+    background-color: #dcdcdc;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0;
+    padding: 1rem;
+    width: 320px;
+}
+
+.red-circle{
+    background-color: #D6000D;
+    border-radius: 100%;
+    height: 60px;
+    width: 60px;
+}
+
+.funcionario-content{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    width: 73%;
+}
+
+.funcionario-phrase{
+    font-size: 1rem;
+}
+
+.funcionario-name{
+    font-size: 1.5rem;
+    margin: 1rem 0 0.2rem 0;
+}
+
+.funcionario-institution{
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+

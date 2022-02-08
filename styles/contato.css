@@ -46,7 +46,7 @@
    background-color: #dcdcdc;
    border: none;
    border-radius: 1rem;
-   font-size: 1rem;
+   font-size: 1.1rem;
    margin: 1rem 0 1rem 0;
    padding: 1rem 1.5rem;
 }
@@ -57,7 +57,7 @@
     border: none;
     border-radius: 1rem;
     color: #FFFFFF;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: bold;
     padding: 1rem 2rem;
 }
