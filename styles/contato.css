@@ -1,0 +1,63 @@
+.contato{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10rem 0 0 0;
+}
+
+.contato-image{
+    background-image: url("../assets/coding_.png");
+    background-repeat: no-repeat;
+    background-size: 190px;
+    height: 190px;
+    width: 190px;
+}
+
+.contato-list{
+    margin: 1rem 0 2.5rem 0;
+}
+
+.contato-list li{
+    font-size: 1rem;
+    line-height: 2.5rem;
+}
+
+.contato-list li::before{
+    background-image: url("../assets/icons8-check-circle.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+    margin-right: 1rem;
+    padding: 0 10px;
+}
+
+.contato-form{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.contato-titulo{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.contato-input{
+   background-color: #dcdcdc;
+   border: none;
+   border-radius: 1rem;
+   font-size: 1rem;
+   margin: 1rem 0 1rem 0;
+   padding: 1rem 1.5rem;
+}
+
+
+.contato-button{
+    background-color: #D6000D;
+    border: none;
+    border-radius: 1rem;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1rem 2rem;
+}
