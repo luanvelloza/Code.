@@ -46,3 +46,14 @@
 
 }
 
+@media (min-width: 768px){
+
+    .relatorio{
+        align-items: initial;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 10rem 0 3rem 0;
+        width: 768px;
+    }
+}
+

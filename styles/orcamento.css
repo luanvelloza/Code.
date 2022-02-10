@@ -4,6 +4,12 @@
     flex-direction: column;
 }
 
+.orcamento-content{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
 .orcamento-image{
     background-image: url("../assets/video_call.png");
     background-repeat: no-repeat;
@@ -19,6 +25,7 @@
     line-height: 1.8rem;
     margin: 1rem 0 2.5rem 0;
     text-align: center;
+    width: 300px;
 }
 
 .orcamento-title{
@@ -31,8 +38,75 @@
 .orcamento-button{
     background-color: #D6000D;
     border: none;
-    border-radius: 1rem;
+    border-radius: 0.8rem;
+    cursor: pointer;
     color: #FFFFFF;
     padding: 1rem 4rem;
     font-size: 1.1rem;
+}
+
+@media (min-width: 768px){
+
+    .orcamento{
+        align-items: flex-start;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 768px;
+    }
+
+    .orcamento-content{
+        align-items: flex-start;
+    }
+
+    .orcamento-image{
+        background-size: 300px;
+        height: 300px;
+        width: 300px;
+    }
+
+    .orcamento-title{  
+        font-size: 2.6rem;
+    }
+
+    .orcamento-phrase{
+        line-height: 2.5rem;
+        margin: 2rem 0 2.5rem 0;
+        text-align: start;
+    }
+
+    .orcamento-button{
+        padding: 0.5rem 2.5rem;
+        font-size: 1.1rem;
+        border-radius: 0.8rem;
+        font-weight: bold;
+    }
+    
+}
+
+@media (min-width: 1024px){
+    .orcamento{
+        width: 1024px;
+    }
+
+    .orcamento-image{
+        background-size: 350px;
+        height: 350px;
+        width: 350px;
+    }
+
+    .orcamento-phrase{
+        font-size: 1.5rem;
+        line-height: 3rem;
+        margin: 2.5rem 0 2.5rem 0;
+        width: 401px;
+    }
+
+    .orcamento-title{
+        font-size: 3.5rem;
+    }
+
+    .orcamento-button{
+        font-size: 1rem;
+        padding: 0.8rem 2.8rem;
+    }
 }

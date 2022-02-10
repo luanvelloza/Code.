@@ -38,14 +38,20 @@
 }
 
 .contato-titulo{
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: bold;
+}
+
+.contato-area{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
 }
 
 .contato-input{
    background-color: #dcdcdc;
    border: none;
-   border-radius: 1rem;
+   border-radius: 0.8rem;
    font-size: 1.1rem;
    margin: 1rem 0 1rem 0;
    padding: 1rem 1.5rem;
@@ -55,9 +61,85 @@
 .contato-button{
     background-color: #D6000D;
     border: none;
-    border-radius: 1rem;
+    border-radius: 0.7rem;
+    cursor: pointer;
     color: #FFFFFF;
     font-size: 1.1rem;
     font-weight: bold;
     padding: 1rem 2rem;
+}
+
+@media (min-width: 768px){
+
+    .contato{
+        align-items: initial;
+        width: 668px;
+    }
+
+    .contato-content{
+        align-items: center;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .contato-image{
+        background-size: 300px;
+        height: 300px;
+        width: 300px;
+    }
+
+    .contato-list li{
+        font-size: 1.3rem;
+    }
+
+    .contato-list li::before{
+        padding: 0px 13px;
+    }
+
+    .contato-list li{
+        line-height: 1.8rem;
+    }
+
+    .contato-form{
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .contato-area{
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .contato-button{
+        margin-left: 1rem;
+    }
+    
+}
+
+@media (min-width: 1024px){
+
+    .contato{
+        width: 768px;
+    }
+
+    .contato-image{
+        background-size: 350px;
+        height: 350px;
+        width: 350px;
+    }
+
+    .contato-list li{
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+
+    .contato-list li::before{
+        padding: 1px 15px;
+    }
+
+    .contato-titulo{
+        font-size: 1.5rem;
+    }
 }

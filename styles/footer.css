@@ -56,11 +56,52 @@ footer{
 .icon{
     height: 40px;
     margin: 0 2rem 0 0;
-    width: 40px;
-    
+    width: 40px;  
 }
 
 .icon-twitter{
     background-color: #D6000D;
+}
+
+@media (min-width: 768px){
+
+    footer{
+        align-items: flex-start;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 4rem 2rem;
+    }
+
+    .footer-logo{
+        align-self: initial;
+        text-align: initial;
+    }
+
+    .footer-logo h2{
+        font-size: 1rem;
+    }
+
+    .footer-sobre, .footer-contato, .footer-redes-socias{
+        margin: 0 0 0 1rem;
+    }
+
+    .footer-sobre{
+        width: 150px;
+    }
+
+    .footer-sobre h3, .footer-contato h3, .footer-redes-socias h3{
+        margin: 0 0 1.2rem 0;
+    }
+
+    .footer-redes-socias{
+        text-align: center;
+    }
+    
+    .icon{
+        height: 30px;
+        margin: 0 0.5rem 0 0;
+        width: 30px;  
+    }
+
 }
 
